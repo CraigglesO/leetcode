@@ -14,7 +14,7 @@ pub fn is_valid(s: String) -> bool {
         }
     }
 
-    stack.len() == 0
+    stack.is_empty()
 }
 
 #[cfg(test)]

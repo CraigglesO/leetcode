@@ -6,7 +6,7 @@ pub fn group_anagrams(strs: Vec<String>) -> Vec<Vec<String>> {
 
     for str in strs {
         let key = build_key(&str);
-        res.entry(key).or_insert(vec![]).push(str);
+        res.entry(key).or_default().push(str);
     }
 
     res.into_values().collect()
@@ -36,7 +36,7 @@ mod tests {
             "nat".to_string(),
             "bat".to_string(),
         ]);
-        grouped_res.sort_by(|a, b| a.len().cmp(&b.len()));
+        grouped_res.sort_by_key(|x| x.len());
         assert_eq!(
             grouped_res,
             vec![vec!["bat"], vec!["tan", "nat"], vec!["eat", "tea", "ate"]]

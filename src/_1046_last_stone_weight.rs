@@ -9,7 +9,7 @@ pub fn last_stone_weight(mut stones: Vec<i32>) -> i32 {
         }
     }
 
-    if stones.len() == 0 {
+    if stones.is_empty() {
         return 0;
     }
 

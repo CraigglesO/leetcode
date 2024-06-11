@@ -21,7 +21,7 @@ impl KthLargest {
 
     fn add(&mut self, val: i32) -> i32 {
         let ku = self.k as usize;
-        if self.nums.len() == 0 {
+        if self.nums.is_empty() {
             self.nums.push(val);
             return self.nums[self.nums.len() - 1];
         }
