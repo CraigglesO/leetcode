@@ -20,6 +20,7 @@ mod _238_product_of_array_except_self;
 mod _242_valid_anagram;
 mod _268_missing_number;
 mod _338_counting_bits;
+mod _344_reverse_string;
 mod _347_top_k_frequent_elements;
 mod _371_sum_of_two_integers;
 mod _392_is_subsequence;
