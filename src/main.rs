@@ -22,6 +22,7 @@ mod _268_missing_number;
 mod _338_counting_bits;
 mod _347_top_k_frequent_elements;
 mod _371_sum_of_two_integers;
+mod _392_is_subsequence;
 mod _3_longest_substring_without_repeating_characters;
 mod _49_group_anagrams;
 mod _4_median_of_two_sorted_arrays;
@@ -30,6 +31,7 @@ mod _703_kth_largest_element_in_a_stream;
 mod _704_binary_search;
 mod _70_climbing_stairs;
 mod _746_min_cost_climbing_stairs;
+mod _75_sort_colors;
 mod _7_reverse_integer;
 
 fn main() {}
