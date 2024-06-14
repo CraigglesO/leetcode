@@ -11,6 +11,7 @@ mod _190_reverse_bits;
 mod _191_number_of_1_bits;
 mod _1_two_sum;
 mod _202_happy_number;
+mod _2037_minimum_number_of_moves_to_seat_everyone;
 mod _206_reverse_linked_list;
 mod _20_valid_parentheses;
 mod _217_contains_duplicate;
@@ -34,5 +35,6 @@ mod _70_climbing_stairs;
 mod _746_min_cost_climbing_stairs;
 mod _75_sort_colors;
 mod _7_reverse_integer;
+mod _945_minimum_increment_to_make_unique;
 
 fn main() {}
